@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Brew Haven Cafe — Premium artisan coffee & delicious moments. Dine-in, takeaway, private events & catering in a cozy, elegant atmosphere.">
+  <meta name="keywords" content="cafe, coffee, restaurant, artisan, brew haven, premium coffee">
+  <title>Brew Haven Cafe — Fresh Coffee, Delicious Moments</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">Brew <span>Haven</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#" class="btn-book" data-book>Book a Table</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Dark Mode Toggle -->
+  <button class="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="fade-in">Fresh Coffee,<br><span>Delicious Moments</span></h1>
+      <p class="fade-in">Step into Brew Haven — where every cup is crafted with passion, every bite tells a story, and
+        every visit feels like coming home. Experience the perfect blend of flavor, warmth, and elegance.</p>
+      <div class="hero-btns fade-in">
+        <a href="#featured" class="btn-primary">Explore Menu</a>
+        <a href="#" class="btn-secondary" data-book>Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Coffee -->
+  <section id="featured">
+    <div class="section-header fade-in">
+      <h2>Our Signature Brews</h2>
+      <p>Handpicked, hand-roasted, and hand-crafted — discover our most loved coffee creations</p>
+      <div class="line"></div>
+    </div>
+    <div class="featured-grid">
+      <div class="featured-card fade-in">
+        <img src="images/coffee1.png" alt="Classic Latte Art" loading="lazy">
+        <div class="card-body">
+          <h3>Classic Latte Art</h3>
+          <p>Silky smooth espresso blended with steamed milk, crowned with intricate latte art. A timeless favorite.</p>
+          <span class="price">$5.50</span>
+        </div>
+      </div>
+      <div class="featured-card fade-in">
+        <img src="images/coffee2.png" alt="Iced Caramel Macchiato" loading="lazy">
+        <div class="card-body">
+          <h3>Iced Caramel Macchiato</h3>
+          <p>Chilled espresso layered with vanilla syrup, milk, and a drizzle of buttery caramel. Refreshingly
+            indulgent.</p>
+          <span class="price">$6.50</span>
+        </div>
+      </div>
+      <div class="featured-card fade-in">
+        <img src="images/coffee3.png" alt="Artisan Pour-Over" loading="lazy">
+        <div class="card-body">
+          <h3>Artisan Pour-Over</h3>
+          <p>Single-origin beans brewed slowly for maximum flavor clarity. For the true coffee connoisseur.</p>
+          <span class="price">$7.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offers -->
+  <section class="offers">
+    <div class="section-header fade-in">
+      <h2>Special Offers</h2>
+      <p>Limited-time deals crafted just for our beloved guests</p>
+      <div class="line"></div>
+    </div>
+    <div class="offer-banner fade-in">
+      <div class="offer-text">
+        <h3>Morning Bliss Combo</h3>
+        <p>Start your day right with our signature breakfast combo — a freshly brewed coffee paired with a warm
+          croissant and seasonal fruit. Available every weekday from 7 AM to 10 AM.</p>
+        <a href="#" class="btn-primary" data-book>Claim Offer</a>
+      </div>
+      <div class="offer-badge">
+        <div class="discount">20%</div>
+        <div class="label">OFF THIS WEEK</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="section-header fade-in">
+      <h2>What Our Guests Say</h2>
+      <p>Real stories from our cherished coffee lovers</p>
+      <div class="line"></div>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial-card fade-in">
+        <div class="stars">★★★★★</div>
+        <p>"The best coffee I've ever had! The atmosphere is incredibly warm and cozy. Brew Haven has become my second
+          home."</p>
+        <div class="author">
+          <div class="avatar">S</div>
+          <div class="author-info">
+            <h4>Sarah Mitchell</h4><span>Regular Guest</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-in">
+        <div class="stars">★★★★★</div>
+        <p>"Their pour-over is absolutely divine. The baristas are true artists. I drive 30 minutes just to visit this
+          cafe!"</p>
+        <div class="author">
+          <div class="avatar">J</div>
+          <div class="author-info">
+            <h4>James Rodriguez</h4><span>Coffee Enthusiast</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-in">
+        <div class="stars">★★★★★</div>
+        <p>"We hosted our anniversary dinner here and it was magical. The food, the ambiance, the service — everything
+          was perfect."</p>
+        <div class="author">
+          <div class="avatar">E</div>
+          <div class="author-info">
+            <h4>Emily Chen</h4><span>Event Host</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-header fade-in">
+      <h2>Our Story</h2>
+      <p>From a dream to your favorite neighborhood cafe</p>
+      <div class="line"></div>
+    </div>
+    <div class="about-content">
+      <div class="about-img fade-in">
+        <img src="images/about.png" alt="Inside Brew Haven Cafe">
+      </div>
+      <div class="about-text fade-in">
+        <h2>Crafted with Love, Served with Warmth</h2>
+        <p>Founded in 2018, Brew Haven began as a small passion project by two coffee-obsessed friends who dreamed of
+          creating a space where great coffee meets genuine hospitality. Today, we serve hundreds of happy guests daily,
+          staying true to our roots — quality beans, artisan craft, and a welcoming atmosphere that feels like home.</p>
+        <p>Our baristas are trained by world-class experts, and every bean we use is ethically sourced from the finest
+          farms across Colombia, Ethiopia, and Guatemala.</p>
+        <div class="about-values">
+          <div class="value-item"><span class="icon">☕</span><span>Premium Beans</span></div>
+          <div class="value-item"><span class="icon">🌿</span><span>Ethically Sourced</span></div>
+          <div class="value-item"><span class="icon">👨‍🍳</span><span>Expert Baristas</span></div>
+          <div class="value-item"><span class="icon">❤️</span><span>Made with Love</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Timeline -->
+    <div class="section-header fade-in" style="margin-top:5rem">
+      <h2>Our Journey</h2>
+      <p>Key milestones that shaped Brew Haven</p>
+      <div class="line"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item fade-in">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>2018</h4>
+          <h3>The Beginning</h3>
+          <p>Opened our first tiny cafe with just 4 tables and a dream.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>2019</h4>
+          <h3>Award Winning</h3>
+          <p>Won "Best New Cafe" at the National Coffee Awards.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>2021</h4>
+          <h3>Expansion</h3>
+          <p>Opened our second location with a full kitchen and event space.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h4>2024</h4>
+          <h3>10,000+ Guests</h3>
+          <p>Reached our milestone of serving over 10,000 happy customers monthly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="section-header fade-in">
+      <h2>Our Services</h2>
+      <p>Everything you need for the perfect cafe experience</p>
+      <div class="line"></div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-in">
+        <div class="s-icon">🍽️</div>
+        <h3>Dine-In Experience</h3>
+        <p>Enjoy your meal in our beautifully designed space with ambient music, cozy lighting, and attentive service.
+        </p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="s-icon">📅</div>
+        <h3>Online Reservation</h3>
+        <p>Book your favorite table in advance through our easy online reservation system. Never wait in line again.</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="s-icon">🎉</div>
+        <h3>Private Events</h3>
+        <p>Host birthdays, anniversaries, or corporate events in our exclusive private dining area with custom menus.
+        </p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="s-icon">🥡</div>
+        <h3>Takeaway Service</h3>
+        <p>In a rush? Grab your favorites to go. Order ahead and pick up without the wait.</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="s-icon">🍰</div>
+        <h3>Catering</h3>
+        <p>Let us bring the Brew Haven experience to your events. Full catering services for any occasion.</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="s-icon">📶</div>
+        <h3>Free WiFi Workspace</h3>
+        <p>Work remotely in comfort. High-speed WiFi, power outlets, and a calm environment — your office away from
+          office.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="section-header fade-in">
+      <h2>Our Gallery</h2>
+      <p>A visual peek into the Brew Haven experience</p>
+      <div class="line"></div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item fade-in">
+        <img src="images/hero.png" alt="Cafe Interior" loading="lazy">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="images/gallery1.png" alt="Espresso Shot" loading="lazy">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="images/coffee1.png" alt="Latte Art" loading="lazy">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="images/about.png" alt="Cafe Bar" loading="lazy">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="images/coffee2.png" alt="Iced Coffee" loading="lazy">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="images/coffee3.png" alt="Pour Over Coffee" loading="lazy">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="images/gallery1.png" alt="Coffee Beans" loading="lazy">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="images/hero.png" alt="Cozy Corner" loading="lazy">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-header fade-in">
+      <h2>Get in Touch</h2>
+      <p>We'd love to hear from you — reach out anytime</p>
+      <div class="line"></div>
+    </div>
+    <div class="contact-wrapper">
+      <form class="contact-form fade-in" id="contactForm">
+        <h3>Send Us a Message</h3>
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required id="contact-name">
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required id="contact-email">
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Subject" id="contact-subject">
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" required id="contact-message"></textarea>
+        </div>
+        <button type="submit" class="btn-submit" id="contact-submit">Send Message</button>
+      </form>
+      <div class="contact-info fade-in">
+        <h3>Contact Information</h3>
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div>
+            <h4>Address</h4>
+            <p>123 Coffee Lane, Brew District<br>New York, NY 10001</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+1 (555) 123-4567</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>hello@brewhaven.cafe</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🕐</div>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>Mon–Fri: 7:00 AM – 10:00 PM<br>Sat–Sun: 8:00 AM – 11:00 PM</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="map-container fade-in">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2!2d-73.99!3d40.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzAwLjAiTiA3M8KwNTknMjQuMCJX!5e0!3m2!1sen!2sus!4v1"
+        allowfullscreen loading="lazy" title="Brew Haven Location"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo">Brew Haven</span>
+        <p>Where every sip tells a story. Premium artisan coffee crafted with love in the heart of the city. Come for
+          the coffee, stay for the experience.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p>Subscribe for the latest offers, new brews, and cafe events.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault();alert('Subscribed! Thank you.');">
+          <input type="email" placeholder="Your email" required id="newsletter-email">
+          <button type="submit" id="newsletter-submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Brew Haven Cafe. All rights reserved. Crafted with ☕ and ❤️</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/15551234567" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Booking Modal -->
+  <div class="modal-overlay">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <h3>Book a Table</h3>
+      <form id="bookingForm">
+        <div class="form-group"><input type="text" placeholder="Full Name" required id="booking-name"></div>
+        <div class="form-group"><input type="email" placeholder="Email Address" required id="booking-email"></div>
+        <div class="form-group"><input type="tel" placeholder="Phone Number" required id="booking-phone"></div>
+        <div class="form-group"><input type="date" required id="booking-date"></div>
+        <div class="form-group"><input type="time" required id="booking-time"></div>
+        <div class="form-group"><input type="number" placeholder="Number of Guests" min="1" max="20" required
+            id="booking-guests"></div>
+        <button type="submit" class="btn-submit" id="booking-submit">Reserve Now</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
